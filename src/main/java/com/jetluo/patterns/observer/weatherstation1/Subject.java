@@ -1,9 +1,9 @@
-package com.jetluo.patterns.chapter02;
+package com.jetluo.patterns.observer.weatherstation1;
 
 
 /**
  * @Author jet
- * @Description //TODO
+ * @Description //主题接口
  * @Date 2022/3/31
  * @Param
  * @return

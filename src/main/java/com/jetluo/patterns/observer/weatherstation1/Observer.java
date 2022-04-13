@@ -1,4 +1,4 @@
-package com.jetluo.patterns.chapter02;
+package com.jetluo.patterns.observer.weatherstation1;
 
 /**
  * @Author jet

@@ -1,12 +1,5 @@
-package com.jetluo.patterns.chapter02;
+package com.jetluo.patterns.observer.theadsafe;
 
-/**
- * @Author jet
- * @Description //TODO
- * @Date 2022/3/31
- * @Param
- * @return
- **/
 public interface DisployElement {
     /**
      * @Author jet
