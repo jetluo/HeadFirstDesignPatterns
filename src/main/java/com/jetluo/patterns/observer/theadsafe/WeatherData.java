@@ -21,7 +21,7 @@ public class WeatherData extends ThreadSafeSubject {
 
     public void measurementsChanged() {
         // 1。先调用setChanged()方法,标记状态已经改变的事实。
-        //  setChanged();
+        // setChanged();
         // 2。调用notifyObservers()方法。通知观察者
         //    或者调用  notifyObservers(Object obj); 推数据给观察者。
         notifyObservers();

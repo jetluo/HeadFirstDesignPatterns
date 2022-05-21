@@ -14,7 +14,7 @@ public class ForecastDisplay implements Observer, DisployElement {
 
     private float lastPressure;
 
-    public ForecastDisplay(ThreadSafeSubject subject) {
+    public ForecastDisplay(Subject subject) {
         subject.addObserver(this);
     }
 

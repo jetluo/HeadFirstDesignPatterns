@@ -1,6 +1,8 @@
 package com.jetluo.patterns.observer.theadsafe;
 
 
+import java.util.Set;
+
 /**
  * @Author jet
  * @Description //抽象主题接口
@@ -9,6 +11,8 @@ package com.jetluo.patterns.observer.theadsafe;
  * @return
  **/
 public interface Subject {
+
+
     /**
      * @Author jet
      * @Description //订阅

@@ -7,6 +7,8 @@ import java.util.Set;
 /**
  * @ClassName ThreadSafeSubject
  * @Description 具体主题（具体被观察者）
+ *   该角色的职责：将有关状态存入具体观察者对象，在具体主题的内部
+ *   状态发生改变时，给所有注册过的观察者发送通知。
  * @Author jet
  * @Date 2022/4/6 13:59
  * @Version 1.0

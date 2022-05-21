@@ -13,12 +13,11 @@ import java.util.Observer;
  **/
 public class CurrentConditionsDisplay implements Observer,DisployElement {
 
-    Observable observable;
     private float temperature;
     private float humidity;
 
     public CurrentConditionsDisplay(Observable observable){
-        this.observable = observable;
+
         observable.addObserver(this);
     }
 

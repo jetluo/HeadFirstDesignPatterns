@@ -12,13 +12,14 @@ package com.jetluo.patterns.observer.theadsafe;
  **/
 public class CurrentConditionsDisplay implements Observer, DisployElement {
 
-    ThreadSafeSubject subject;
+
     private float temperature;
     private float humidity;
 
-    public CurrentConditionsDisplay(ThreadSafeSubject subject){
-        this.subject = subject;
+    public CurrentConditionsDisplay(Subject subject){
+
         subject.addObserver(this);
+
     }
 
     @Override
