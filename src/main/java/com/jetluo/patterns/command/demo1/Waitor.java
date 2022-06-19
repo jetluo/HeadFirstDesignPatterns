@@ -7,6 +7,7 @@ import java.util.List;
  * @ClassName Waiter
  * @Description 调用者/请求者（Invoker）角色
  * 接收命令并发出命令
+ *  下单人，发出命令。即要求订单完成人完成发出的命令
  * @Author jet
  * @Date 2022/4/18 22:19
  * @Version 1.0

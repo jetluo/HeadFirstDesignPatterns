@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * @ClassName Broker
  * @Description 命令调用类
+ *   要求命令对象执行请求，发出命令的人
  * @Author jet
  * @Date 2022/4/18 23:18
  * @Version 1.0

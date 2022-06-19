@@ -2,7 +2,7 @@ package com.jetluo.patterns.command.demo2;
 
 /**
  * @ClassName Stock
- * @Description 请求类
+ * @Description 实现者/接收者 ，真正执行命令的人
  * @Author jet
  * @Date 2022/4/18 23:14
  * @Version 1.0

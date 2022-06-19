@@ -2,7 +2,7 @@ package com.jetluo.patterns.factory.config;
 
 /**
  * @ClassName Clinet
- * @Description TODO
+ * @Description 简单工厂
  * @Author jet
  * @Date 2022/4/11 23:58
  * @Version 1.0

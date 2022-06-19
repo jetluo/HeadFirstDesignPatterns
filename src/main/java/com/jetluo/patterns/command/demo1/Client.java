@@ -20,9 +20,10 @@ public class Client {
         order2.setFoodDir("啤酒", 1);
 
         SeniorChef receiver = new SeniorChef();
+        SeniorChef receiver2 = new SeniorChef();
 
         OrderCommand com1 = new OrderCommand(receiver, order1);
-        OrderCommand com2 = new OrderCommand(receiver, order2);
+        OrderCommand com2 = new OrderCommand(receiver2, order2);
 
         Waitor invoke = new Waitor();
         invoke.setCommand(com1);

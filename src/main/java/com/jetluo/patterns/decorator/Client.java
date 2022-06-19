@@ -13,9 +13,8 @@ public class Client {
         System.out.println(food.getDesc() +"  "+ food.cast() +"元");
         food = new Egg(food);
         System.out.println(food.getDesc() +"  "+ food.cast() +"元");
-        food = new Egg(food);
-        System.out.println(food.getDesc() +"  "+ food.cast() +"元");
         food = new Bacon(food);
+
         System.out.println(food.getDesc() +"  "+ food.cast() +"元");
     }
 }

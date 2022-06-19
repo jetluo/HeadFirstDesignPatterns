@@ -13,6 +13,7 @@ public class Client {
         coffee = new SugarDecorator(coffee);
         coffee = new MilkDecorator(coffee);
         coffee = new MilkFoamDecorator(coffee);
+        System.out.print("姓名" + coffee.getName()+" ");
         System.out.println("价格" + coffee.getPrice());
     }
 }

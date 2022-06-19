@@ -2,7 +2,7 @@ package com.jetluo.patterns.factory.abstracts;
 
 /**
  * @ClassName Client
- * @Description TODO
+ * @Description 抽象工厂模式
  * @Author jet
  * @Date 2022/4/11 23:24
  * @Version 1.0

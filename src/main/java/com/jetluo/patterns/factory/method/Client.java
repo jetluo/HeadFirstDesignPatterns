@@ -2,7 +2,7 @@ package com.jetluo.patterns.factory.method;
 
 /**
  * @ClassName Client
- * @Description 工厂模式
+ * @Description 工厂方法模式
  * @Author jet
  * @Date 2022/4/10 22:47
  * @Version 1.0

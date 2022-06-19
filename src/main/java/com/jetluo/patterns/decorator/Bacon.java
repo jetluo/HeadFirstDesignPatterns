@@ -16,7 +16,7 @@ public class Bacon extends Garnish {
     /**
      * @return float
      * @Author jet
-     * @Description //计算价格
+     * @Description //计算价格 重写，原来功能基础上添加新逻辑并且不影响原来的逻辑
      * @Date 2022/4/7
      * @Param []
      **/

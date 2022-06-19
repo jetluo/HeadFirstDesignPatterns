@@ -20,6 +20,6 @@ public class MilkDecorator extends Decorator {
 
     @Override
     public String getName() {
-        return "Coffee+Milk";
+        return coffee.getName()+ "+Milk";
     }
 }
