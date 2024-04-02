@@ -8,6 +8,7 @@ package com.jetluo.patterns.template;
  * @Version 1.0
  **/
 public abstract class AbstractClass {
+
     /**
      * @Author jet
      * @Description //模版方法定义
@@ -16,11 +17,14 @@ public abstract class AbstractClass {
      * @return void
      **/
     public final void cookProcess(){
+
         pourOil();
         heatOil();
         pourVegetable();
         pourSause();
-        fry();
+        if (isHook()) {
+            fry();
+        }
     }
 
     public void pourOil(){
@@ -54,5 +58,9 @@ public abstract class AbstractClass {
      **/
     public void fry(){
         System.out.println("炒啊炒到熟菜为止。。。。。");
+    }
+
+    public boolean isHook(){
+        return  false;
     }
 }

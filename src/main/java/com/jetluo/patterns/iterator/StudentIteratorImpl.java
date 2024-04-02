@@ -9,7 +9,7 @@ import java.util.List;
  * @Date 2022/4/22 23:30
  * @Version 1.0
  **/
-public class StudentIteratorImpl implements  StudentIterator{
+public class StudentIteratorImpl<Student> implements  StudentIterator{
     private List<Student> list;
 
     private  int position = 0;

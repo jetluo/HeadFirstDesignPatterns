@@ -1,5 +1,7 @@
 package com.jetluo.patterns.iterator;
 
+import java.util.Iterator;
+
 /**
  * @ClassName StudentAggregate
  * @Description TODO
@@ -11,4 +13,5 @@ public interface StudentAggregate {
     void addStudent(Student stu);
     void removeStudent(Student stu);
     StudentIterator getStudentIterator();
+
 }

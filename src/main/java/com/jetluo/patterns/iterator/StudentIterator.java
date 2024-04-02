@@ -7,7 +7,7 @@ package com.jetluo.patterns.iterator;
  * @Date 2022/4/22 23:29
  * @Version 1.0
  **/
-public interface StudentIterator {
+public interface StudentIterator<Student> {
 
     boolean hasNext();
 

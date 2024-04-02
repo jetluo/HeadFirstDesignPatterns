@@ -1,6 +1,7 @@
 package com.jetluo.patterns.iterator;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -28,4 +29,5 @@ public class StudentAggregateImpl implements StudentAggregate{
     public StudentIterator getStudentIterator() {
         return new StudentIteratorImpl(list);
     }
+
 }
